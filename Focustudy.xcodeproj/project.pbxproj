@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890BD454251CB9EF009A1005 /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD453251CB9EF009A1005 /* CoreGraphicsExtensions.swift */; };
+		890BD456251CBA1B009A1005 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD455251CBA1B009A1005 /* UIViewExtension.swift */; };
+		890BD459251CBBBE009A1005 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD458251CBBBE009A1005 /* FaceView.swift */; };
+		890BD45B251CBBE7009A1005 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BD45A251CBBE7009A1005 /* FaceDetectionViewController.swift */; };
+		894A16CC251B74CE00269C39 /* RestSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A16CB251B74CE00269C39 /* RestSessionView.swift */; };
+		894A16CE251B74E300269C39 /* RestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A16CD251B74E300269C39 /* RestSession.swift */; };
+		894A16D0251B789200269C39 /* WholeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A16CF251B789200269C39 /* WholeView.swift */; };
+		8954C1CA2536EED4007A6E48 /* StartSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8954C1C92536EED4007A6E48 /* StartSessionView.swift */; };
+		895D3E43251CD70100FBF41C /* FaceControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D3E42251CD70100FBF41C /* FaceControllerRepresentable.swift */; };
+		89697F562528791400DA57FE /* StudyDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89697F552528791400DA57FE /* StudyDataStruct.swift */; };
+		89790742252B7B0700E6E837 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89790741252B7B0700E6E837 /* LoadData.swift */; };
+		899F7850251CA6E6007DA5BF /* SessionTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F784F251CA6E6007DA5BF /* SessionTimer.swift */; };
+		89C3D70E252BED1C00697848 /* StudyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 89C3D70D252BED1C00697848 /* StudyData.json */; };
 		89C74348251B190D00338FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C74347251B190D00338FFA /* AppDelegate.swift */; };
 		89C7434A251B190D00338FFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C74349251B190D00338FFA /* SceneDelegate.swift */; };
 		89C7434C251B190D00338FFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7434B251B190D00338FFA /* ContentView.swift */; };
@@ -15,6 +28,8 @@
 		89C74354251B190E00338FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C74352251B190E00338FFA /* LaunchScreen.storyboard */; };
 		89C7435F251B190E00338FFA /* FocustudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7435E251B190E00338FFA /* FocustudyTests.swift */; };
 		89C7436A251B190E00338FFA /* FocustudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C74369251B190E00338FFA /* FocustudyUITests.swift */; };
+		89C74378251B196300338FFA /* WorkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C74377251B196300338FFA /* WorkSession.swift */; };
+		89C7437C251B1A5700338FFA /* WorkSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7437B251B1A5700338FFA /* WorkSessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		890BD453251CB9EF009A1005 /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		890BD455251CBA1B009A1005 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		890BD458251CBBBE009A1005 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = Focustudy/FaceView.swift; sourceTree = SOURCE_ROOT; };
+		890BD45A251CBBE7009A1005 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		894A16CB251B74CE00269C39 /* RestSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSessionView.swift; sourceTree = "<group>"; };
+		894A16CD251B74E300269C39 /* RestSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSession.swift; sourceTree = "<group>"; };
+		894A16CF251B789200269C39 /* WholeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeView.swift; sourceTree = "<group>"; };
+		8954C1C92536EED4007A6E48 /* StartSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSessionView.swift; sourceTree = "<group>"; };
+		895D3E42251CD70100FBF41C /* FaceControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceControllerRepresentable.swift; sourceTree = "<group>"; };
+		89697F552528791400DA57FE /* StudyDataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDataStruct.swift; sourceTree = "<group>"; };
+		89790741252B7B0700E6E837 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadData.swift; path = /Users/jinheepaeng/Desktop/Focustudy/Focustudy/LoadData.swift; sourceTree = "<absolute>"; };
+		899F784F251CA6E6007DA5BF /* SessionTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTimer.swift; sourceTree = "<group>"; };
+		89C3D70D252BED1C00697848 /* StudyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StudyData.json; sourceTree = "<group>"; };
 		89C74344251B190D00338FFA /* Focustudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focustudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C74347251B190D00338FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89C74347251B190D00338FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		89C74349251B190D00338FFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89C7434B251B190D00338FFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89C7434B251B190D00338FFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		89C7434D251B190E00338FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C74350251B190E00338FFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89C74353251B190E00338FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +77,8 @@
 		89C74365251B190E00338FFA /* FocustudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocustudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C74369251B190E00338FFA /* FocustudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocustudyUITests.swift; sourceTree = "<group>"; };
 		89C7436B251B190E00338FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C74377251B196300338FFA /* WorkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSession.swift; sourceTree = "<group>"; };
+		89C7437B251B1A5700338FFA /* WorkSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890BD457251CBA36009A1005 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				890BD453251CB9EF009A1005 /* CoreGraphicsExtensions.swift */,
+				890BD455251CBA1B009A1005 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		89C7433B251B190D00338FFA = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +141,20 @@
 				89C74347251B190D00338FFA /* AppDelegate.swift */,
 				89C74349251B190D00338FFA /* SceneDelegate.swift */,
 				89C7434B251B190D00338FFA /* ContentView.swift */,
+				89697F552528791400DA57FE /* StudyDataStruct.swift */,
+				899F784F251CA6E6007DA5BF /* SessionTimer.swift */,
+				89790741252B7B0700E6E837 /* LoadData.swift */,
+				8954C1C92536EED4007A6E48 /* StartSessionView.swift */,
+				894A16CF251B789200269C39 /* WholeView.swift */,
+				890BD45A251CBBE7009A1005 /* FaceDetectionViewController.swift */,
+				89C3D70D252BED1C00697848 /* StudyData.json */,
+				895D3E42251CD70100FBF41C /* FaceControllerRepresentable.swift */,
+				890BD458251CBBBE009A1005 /* FaceView.swift */,
+				890BD457251CBA36009A1005 /* Extensions */,
+				89C7437B251B1A5700338FFA /* WorkSessionView.swift */,
+				89C74377251B196300338FFA /* WorkSession.swift */,
+				894A16CD251B74E300269C39 /* RestSession.swift */,
+				894A16CB251B74CE00269C39 /* RestSessionView.swift */,
 				89C7434D251B190E00338FFA /* Assets.xcassets */,
 				89C74352251B190E00338FFA /* LaunchScreen.storyboard */,
 				89C74355251B190E00338FFA /* Info.plist */,
@@ -240,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C74354251B190E00338FFA /* LaunchScreen.storyboard in Resources */,
+				89C3D70E252BED1C00697848 /* StudyData.json in Resources */,
 				89C74351251B190E00338FFA /* Preview Assets.xcassets in Resources */,
 				89C7434E251B190E00338FFA /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +320,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89697F562528791400DA57FE /* StudyDataStruct.swift in Sources */,
 				89C74348251B190D00338FFA /* AppDelegate.swift in Sources */,
+				8954C1CA2536EED4007A6E48 /* StartSessionView.swift in Sources */,
+				894A16CC251B74CE00269C39 /* RestSessionView.swift in Sources */,
+				890BD456251CBA1B009A1005 /* UIViewExtension.swift in Sources */,
+				894A16CE251B74E300269C39 /* RestSession.swift in Sources */,
+				890BD454251CB9EF009A1005 /* CoreGraphicsExtensions.swift in Sources */,
+				895D3E43251CD70100FBF41C /* FaceControllerRepresentable.swift in Sources */,
+				89C7437C251B1A5700338FFA /* WorkSessionView.swift in Sources */,
+				899F7850251CA6E6007DA5BF /* SessionTimer.swift in Sources */,
+				894A16D0251B789200269C39 /* WholeView.swift in Sources */,
 				89C7434A251B190D00338FFA /* SceneDelegate.swift in Sources */,
 				89C7434C251B190D00338FFA /* ContentView.swift in Sources */,
+				890BD45B251CBBE7009A1005 /* FaceDetectionViewController.swift in Sources */,
+				89C74378251B196300338FFA /* WorkSession.swift in Sources */,
+				890BD459251CBBBE009A1005 /* FaceView.swift in Sources */,
+				89790742252B7B0700E6E837 /* LoadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +509,7 @@
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Focustudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +531,7 @@
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Focustudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				INFOPLIST_FILE = FocustudyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				INFOPLIST_FILE = FocustudyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				INFOPLIST_FILE = FocustudyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,6 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD52PB96FT;
 				INFOPLIST_FILE = FocustudyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
